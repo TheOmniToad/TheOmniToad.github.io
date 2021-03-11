@@ -1,3 +1,14 @@
+body {
+  background: linear-gradient(-45deg, olive, teal);
+}
+
 h1{
-  color:teal;
+  color:white;
+  font-family: Georgia;
+}
+
+p {
+  color: white;
+  font-family: Helvetica;
+  font-size: 18px;
 }

@@ -1,6 +1,11 @@
 
+*{
+  margin: 0;
+  padding:0;
+}
+
 body {
-  background: linear-gradient(-45deg, olive, teal);
+  background: linear-gradient(-45deg, olivedrab, teal);
 }
 
 h1{
@@ -13,6 +18,9 @@ p {
   color: white;
   font-family: Helvetica;
   font-size: 18px;
+  min-width: 500px;
+  max-width: 750px;
+  margin: 0 auto;
 }
 
 .test{
@@ -26,7 +34,13 @@ p {
 }
 
 .logo{
+  background-color: seagreen;
   background-image: url("toad.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  height: 310px;
+  width: 275px;
+  margin: 10px auto;
+  border: seagreen medium outset;
+  border-radius: 10px;
 }

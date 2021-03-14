@@ -6,7 +6,8 @@
 
 html {
   background: linear-gradient(-45deg, seagreen, teal);
-  height: 100vh;
+  min-height: 100%;
+  position: relative;
 }
 
 h1{
@@ -21,6 +22,26 @@ p {
   min-width: 340px;
   max-width: 750px;
   margin: 0 auto;
+}
+
+.main-header {
+  background-color: White;
+  color: blue;
+  height: 8vh;
+  min-height: 25px;
+  width: 95vw;
+  margin: 0 auto;
+  position: sticky;
+  top: 0;
+}
+
+.main-header li{
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  width: 8em;
+  position: relative;
+  align: center;
 }
 
 .test{

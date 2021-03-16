@@ -45,6 +45,7 @@ p {
   border-style: solid;
   border-color: darkolivegreen;
   border-width: thick;
+  border-radius: 5px;
   overflow: hidden;
 }
 

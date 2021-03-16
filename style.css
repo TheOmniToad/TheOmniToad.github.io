@@ -6,8 +6,7 @@
 
 html {
   background: linear-gradient(-45deg, seagreen, teal);
-  min-height: 100%;
-  position: relative;
+  height: 100%;
 }
 
 h1{
@@ -25,23 +24,28 @@ p {
 }
 
 .main-header {
-  background-color: White;
+  background-color: olivedrab;
   color: blue;
-  height: 8vh;
-  min-height: 25px;
+  height: 4em;
   width: 95vw;
-  margin: 0 auto;
+  display: flex;
   position: sticky;
   top: 0;
+  padding: 1em;
+  justify-content: space-around;
 }
 
-.main-header li{
+.linkbox{
+  background-color: teal;
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
   width: 8em;
   position: relative;
-  align: center;
+  border-style: solid;
+  border-color: darkolivegreen;
+  border-width: thick;
+  overflow: hidden;
 }
 
 .test{

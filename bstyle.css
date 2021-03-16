@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  font-family: "Press Start 2P";
+}
+
+body {
+  background: url(media/honeycombback.jpg);
+}
+
+h1{
+  color:white;
+  font-family: Georgia;
+  text-align: center;
+}
+
+p {
+  color: seagreen;
+}
+
+.content{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: space-around;
+}
+
+.box{
+
+}
+
+.a {
+
+}
+
+.b{
+  grid-column: 2 / 5;
+  background: url(media/bee01.gif)
+}

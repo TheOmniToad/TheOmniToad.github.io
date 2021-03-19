@@ -6,7 +6,6 @@
 
 html {
   background: linear-gradient(-45deg, seagreen, teal);
-  height: 100%;
 }
 
 h1{
@@ -24,34 +23,42 @@ p {
 }
 
 .main-header {
-  background-color: olivedrab;
-  height: 4em;
-  width: 95vw;
-  display: flex;
+  background-color: green;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   position: sticky;
   top: 0;
-  padding: 1em;
-  justify-content: space-around;
+  padding: 2px;
+  margin: 0 auto;
+  height: 4em;
+  align-content: start;
+  align-items: center;
+  transition-property: height, width;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+.main-header:hover{
+  height: 5em;
+  width: 95vw;
 }
 
 .linkbox{
   background-color: teal;
+  color: purple;
   font-size: 20px;
   font-weight: bold;
-  display: inline-block;
   width: 8em;
-  position: relative;
-  border-style: solid;
-  border-color: darkolivegreen;
-  border-width: thick;
-  border-radius: 5px;
   overflow: hidden;
-  transition-property: background-color;
-  transition-duration: .1s;
+  transition-property: background-color, color;
+  transition-duration: .01s;
+  text-align: center;
 }
 
 .linkbox:hover{
   background-color: purple;
+  color: teal;
 }
 
 .test{

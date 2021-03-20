@@ -9,7 +9,7 @@ html {
 }
 
 h1{
-  color:white;
+  color:gold;
   font-family: Georgia;
   text-align: center;
 }
@@ -29,39 +29,50 @@ p {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   position: sticky;
   top: 0;
-  padding: 0.1em 5vw;
+  padding: 0.3em 5vw;
   margin: 0 auto;
+  border-radius: 100px;
   height: 4em;
-  align-content: start;
+  align-content: center;
   align-items: center;
   justify-content: center;
   transition-property: all;
-  transition-duration: .5s;
+  transition-duration: .2s;
 }
 
 .main-header:hover{
   height: 5em;
+  width: 91vw;
   padding: 0.7em 5vw;
 }
 
 .linkbox{
+  display: flex;
   background-color: teal;
-  color: orange;
-  font-size: 25px;
+  color: aqua;
+  font-size: 1.6em;
   font-weight: bold;
   width: 8em;
+  height: auto;
   padding: .3em 0;
   overflow: hidden;
   border-radius: 8px;
-  transition-property: all;/*background-color, color, padding; */
+  transition-property: all;
   transition-duration: .2s;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .linkbox:hover{
   background-color: purple;
-  color: teal;
+  color: gold;
   padding: .5em 0;
+  font-size: 1.7em;
+  height: 3em;
+}
+
+.container{
+
 }
 
 .test{

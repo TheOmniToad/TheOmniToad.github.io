@@ -29,36 +29,39 @@ p {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   position: sticky;
   top: 0;
-  padding: 2px;
+  padding: 0.1em 5vw;
   margin: 0 auto;
   height: 4em;
   align-content: start;
   align-items: center;
-  transition-property: height, width;
+  justify-content: center;
+  transition-property: all;
   transition-duration: .5s;
-  transition-timing-function: ease-in-out;
 }
 
 .main-header:hover{
   height: 5em;
-  width: 95vw;
+  padding: 0.7em 5vw;
 }
 
 .linkbox{
   background-color: teal;
-  color: purple;
-  font-size: 20px;
+  color: orange;
+  font-size: 25px;
   font-weight: bold;
   width: 8em;
+  padding: .3em 0;
   overflow: hidden;
-  transition-property: background-color, color;
-  transition-duration: .01s;
+  border-radius: 8px;
+  transition-property: all;/*background-color, color, padding; */
+  transition-duration: .2s;
   text-align: center;
 }
 
 .linkbox:hover{
   background-color: purple;
   color: teal;
+  padding: .5em 0;
 }
 
 .test{
